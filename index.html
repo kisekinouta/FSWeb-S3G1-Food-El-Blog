@@ -3,39 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- css dosyanızı ekleyiniz-->
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Lato" rel="stylesheet">
+   
+    <link href="./index.css" rel="stylesheet">
     <title>Food El Blog</title>
 </head>
 
 <body>
-
+    <div class="container">
+<header>
     <h1>
     Food El Blog </h1>
 
+<nav>
     <ul>
-        <li>
-    Ana Sayfa</li>
-</ul>
-    <ul>
-        <li>
-    Aperatifler</li>
-</ul>
-    <ul>
+        <li>Ana Sayfa</li>
+        <li>Aperatifler</li>
         <li>Vegan</li>
+        <li>Yemekler</li>
+        <li>Tatlılar</li>
+        <li>İçecekler</li>
     </ul>
-            <ul>
-                <li>Yemekler</li>
-            </ul>
-                    <ul>
-                        <li>Tatlılar</li>
-                    </ul>
-                            <ul>
-                                <li>İçecekler
-</li>
-</ul>
-    <img src="images/banner.png" />
+</nav>
+</header>
+</div>
+<div class="full-width">
+    <div class=" "container">
 
+
+    <img src="images/banner.png" />
+</div>
+</div>
+    <section class="container about-section">
+        <div>
     <h2>
     Hakkımızda</h2>
 <p>
@@ -44,18 +43,27 @@
     sağlıklı yaşam trendleri dışında bırakılmıştır.  “Hamburgersiz de yaşanır “, iddialıyız. Fool El Blog, bugüne kadar 
     yediğiniz tüm burgerleri size unutturacak kadar eşsiz yaratıldı.
 </p>
-    
+</div>
+</section>
+<section class="container">
+    <article class="content-row">
+        <div class="content-img" style="margin-top: 60px;">
 
     <img src= "images/yemek_1.jpg" />
+    </div>
+   <div class = "content-text">
+   
     <h2>Yemekler</h2>
 
-    <p>Bir fırında mantar soslu antrikot Türk mutfağının en özel ve en gösterişli yemeklerinden biri olarak kabul edilir. 
+    <p>Bir fırında mantar soslu antrikot Türk mutfağının en özel ve en gösterişli yemeklerinden biri olarak kabul edilir. </p>
 
-    Bu yemek için dana antrikot özel baharatlarla fırına verilir ve ağızda dağılacak kadar yumuşayarak benzersiz bir 
+   <p>Bu yemek için dana antrikot özel baharatlarla fırına verilir ve ağızda dağılacak kadar yumuşayarak benzersiz bir 
     deneyim için hazır hale gelir. Yanında sebze sote, mantarlı özel sos ile bu harika şölen tamamlanır. </p>
+</div>
+</article> 
+<article class="content-row">
     
-    <img src= "images/aperatif.jpeg" />
-    
+    <div class="content-text">
 <h2>Aperatifler</h2>
 <p>Anadolu lezzetlerinden Avrupa’ya varana kadar bir yemek skalasını sizlerle paylaşmak için yola çıktık. İnternet 
     gibi güçlü bir bağ ile mutfaklarınıza misafir olmak niyetindeyiz. E hadi o zaman, müsaitseniz kahvaltıya, belki 
@@ -64,33 +72,50 @@
 <p>Yine de en çok sizleri bize bekleriz. Çünkü sadece bizim mutfağımızın ocağı yanarsa biz sizin o maharetli 
     ellerinizden çıkan lezzetlerin tarifini nereden biliriz. İşte bu yüzden, hadi yine gelin; bizim mutfağın 
     kapısı yok, hep bekleriz.</p>
-    
+    </div>
+    <div class="content-img">
+    <img src= "images/aperatif.jpeg" />
+</div>
 
+</article>
+<article class="content-row">
+    <div class="content-img">
 
      <img src= "images/tatli_1.jpg" />
-    <h2>Tatlılar</h2>
+    </div>
+    <div class="content-text">
+     <h2>Tatlılar</h2>
 
     <p>Taptaze tatlılarımız, fırınımız ustalarının özenle hazırladığı pastacı kreması ile buluştu. Her sofraya yakışan 
     alametifarikalarımız tatlılarımız ile kendinizi ödüllendirin.</p>
-
-   <h3> İletişim</h3>
-
-    <p>yemek@foodelblog.com</p>
-    <p>216-550-5905</p>
-    <p>Bağdat Cd. No:302/1
-    Kadıköy, İstanbul, 34728
-</p>
+</div>
+</article>
+</section>
+<section class="container contact-section">
+   <h2>İletişim</h2>
+   <div>
+    <p class="contact-address">yemek@foodelblog.com</br>
+    216-550-5905
+    Bağdat Cd. No:302/1
+    Kadıköy, İstanbul, 34728 </p>
+</div>
+</section>
     <footer>
-    Food El Blog
-<ul></ul>
-    Ana Sayfa</ul>
-    <ul>Aperatifler</ul>
-    <ul>Vegan</ul>
-    <ul>Yemekler</ul>
-    <ul>Tatlılar</ul>
-    <ul>İçecekler</ul>
-</footer>
+        <div class="container footer-content">  
+   <h3>Food El Blog</h3>
+<nav>
+    <a href=#>Ana Sayfa</a>
+    <a href=#>Aperatifler</a>
+    <a href=#>Vegan</a>
+    <a href=#>Yemekler</a>
+    <a href=#>Tatlılar</a>
+    <a href=#>İçecekler</a>
+</nav>
+<div class="copyright">
     @Copyright Food El Blog 2022
+</div>
+</div>
+</footer>
 </body>
 
 </html>
